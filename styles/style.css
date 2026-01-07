@@ -19,7 +19,24 @@
     padding: 18px 36px;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
+.section-heading {
+    max-width: 827px;
+    text-align: center;
+
+}
+.section-heading h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.section-heading p {
+    line-height: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #757575;
+}
+/* 
 /* Main-style */
 body {
     background-color: blanchedalmond;
@@ -27,7 +44,10 @@ body {
 
 /* Header Area - Nav */
 header {
-    background-color: #FFF8F3;
+    
+    background: url(../images/developer.png), url(../images/header_bg.png);
+    background-position: top left, right bottom;
+    background-repeat: no-repeat;
     padding-top: 50px;
     
 }
@@ -61,4 +81,58 @@ nav .menu a {
     color: #474747;
     display: flex;
     align-items: center;
+}
+
+/* Hero Area */
+#hero {
+    
+    margin: 66px 37px 0 230px;
+    
+
+}
+#hero .hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#hero .hero-container h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+#hero .hero-container h1 {
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+#hero .hero-container p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #757575;
+    line-height: 30px;
+}
+#hero .hero-content {
+    max-width: 585px;
+    
+}
+#hero .banner-image img {
+    max-width: 585px;
+    vertical-align: middle;
+}
+/* About Area */
+#about {
+    padding-top: 130px;
+}
+#about .container-about {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 131px 156px 131px 157px;
+}
+#about .about-card {
+    display: flex;
+    justify-content: space-between;
 }
