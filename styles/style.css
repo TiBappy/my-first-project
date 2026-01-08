@@ -172,4 +172,60 @@ nav .menu a {
 }
 .card-one p {
     line-height: 28px;
+}.card-one img {
+    margin-bottom: 30px;
+
+}
+.card-one h3 {
+    margin-bottom: 30px;
+}
+#resume {
+    margin-top: 130px;
+}
+.resume-container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.resume-content {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+.resume-heading h1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+    margin-bottom: 113px;
+}
+.resume-left {
+    max-width: 511px;
+    margin-bottom: 30px;
+}
+.resume-left h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.resume-left h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume-left h4 {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.resume-left p {
+    color: #757575;
+    line-height: 28px;
+}
+.resume-left hr {
+    margin-top: 30px;
 }
