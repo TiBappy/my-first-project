@@ -229,3 +229,63 @@ nav .menu a {
 .resume-left hr {
     margin-top: 30px;
 }
+.resume-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+/* Contact Us section */
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 243px;
+}
+.card-left {
+    max-width: 562px;
+}
+.contact-left h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    padding-bottom: 50px;
+}
+.contact-left p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+.contact-left img {
+    margin-right: 20px;
+}
+.card-right {
+    max-width: 562px;
+}
+/* Card Right */
+.contact-right h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    padding-bottom: 20px;
+}
+.form input {
+    background-color: #fff;
+    padding: 20px 80px;
+    display: block;
+    margin: 15px 0;
+    border: none;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 16px;
+}
+.form textarea {
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+   
+   
+
+}
